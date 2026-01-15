@@ -27,10 +27,10 @@ You will be prompted to input the test data cycle index for the inference to beg
 
 6) The reported estimation performance and inference latency correspond to inference using the following hardware:
 
-A laptop with an Intel Core $i7-12700H$ CPU
-16 gigabytes of RAM
-nVIDIA GeForce RTX $3060$ graphics processing unit (GPU) with 8 gigabytes of dedicated video memory.
-Windows 11 Home with the Python 3 interpreter installed.
+  A laptop with an Intel Core $i7-12700H$ CPU
+  16 gigabytes of RAM
+  nVIDIA GeForce RTX $3060$ graphics processing unit (GPU) with 8 gigabytes of dedicated video memory.
+  Windows 11 Home with the Python 3 interpreter installed.
 
 The dense optical flow-based model was implemented using the Open Computer Vision Library OpenCV (www.opencv.org) and executed on the CPU. Both the dense optical flow-based model and the proposed deep fusion model were evaluated under identical CPU hardware and runtime conditions to ensure a fair comparison. The inference performance of the deep model was also evaluated exploiting GPU acceleration with TensorFlow and DirectML support, resulting in a mean (per-sample) inference latency of approximately 0.02 s over the test data.
 
