@@ -31,7 +31,7 @@ To run the experiments, please:
 5) The reported estimation performance and inference latency correspond to inference using the following hardware:
 
         A laptop with an Intel Core $i7-12700H$ CPU
-        16 gigabytes of memory
+        16 gigabytes of RAM
         nVIDIA GeForce RTX $3060$ graphics processing unit (GPU) with 8 gigabytes of dedicated video memory.
         Windows 11 Home with the Python $3$ interpreter installed.
 
