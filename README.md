@@ -9,20 +9,13 @@ To run the experiments, please:
 ' 
 3) Create a new python (conda) environment with the following creation / activation commands and the packages / dependecies:
 
-        conda create -n deep_fusion -c conda-forge ^
-          python=3.10.19 ^
-          cudatoolkit=11.2.2 ^
-          cudnn=8.1.0.77 ^
-          cmake=4.1.2
+        conda create -n deep_fusion -c conda-forge python=3.10.19 cudatoolkit=11.2.2 cudnn=8.1.0.77 cmake=4.1.2
         
         conda activate deep_fusion
         
         python -m pip install --upgrade pip==25.3 setuptools==80.9.0 wheel==0.45.1
         
-        python -m pip install --index-url https://download.pytorch.org/whl/cu113 ^
-          torch==1.12.1+cu113 ^
-          torchvision==0.13.1+cu113 ^
-          torchaudio==0.12.1+cu113
+        python -m pip install --index-url https://download.pytorch.org/whl/cu113 torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1+cu113
         
         python -m pip install requirements.txt
 
