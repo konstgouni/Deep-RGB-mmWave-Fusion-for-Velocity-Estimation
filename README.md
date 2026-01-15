@@ -20,6 +20,7 @@ To run the experiments, please:
         python -m pip install requirements.txt
 
 4) Run the inference file:
+   
         python inference.py
 
 You will be prompted to input the test data cycle index for the inference to begin. Type 2 if you want to replicate the 4 consecutive driving cycle experiments. Upon successful termination of this script, you will already be having: a) the velocity estimation plots (deep fusion vs optical flow baseline vs ground truth) for each driving experiment and b) the results corresponding to the concatenation fo the driving experiments.
